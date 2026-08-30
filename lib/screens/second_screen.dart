@@ -28,6 +28,7 @@ const SecondScreen({super.key, required this.placeDetails});
                     placeDetails["image"]!,
                     width: double.infinity,
                     height: height * 0.35, 
+                    fit: BoxFit.cover,  
                   ),
                 ),
                 Positioned(
@@ -88,7 +89,7 @@ const SecondScreen({super.key, required this.placeDetails});
                       Icon(Icons.star, color: Colors.amber, size: 18),
                       SizedBox(width: 4),
                       Text(
-                        "4.7 (1,240 Reviews)",
+                        "4.5 (1,240 Reviews)",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 13,
