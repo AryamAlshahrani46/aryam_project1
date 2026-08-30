@@ -1,6 +1,9 @@
-[code.txt](https://github.com/user-attachments/files/31614415/code.txt)1_Application Overview :
+1_Application Overview :
 
 The Riyadh Tourism & Cultural Heritage App is a mobile application developed using the Flutter framework . The app aims to highlight the historical, cultural, and modern landmarks of Riyadh, showcasing prominent destinations across the city.
+
+
+
 
 2_Key Features:
 
@@ -11,6 +14,10 @@ Landmarks & Details Display: Structured with a primary screen (home_screen.dart)
 Rich Media Support: Integrated with high-quality images and icons representing national identity and culture using Image.asset and Icon widgets.
 
 Smooth Navigation: Built with an organized navigation flow using elements such as BottomNavigationBar and ListView.builder for an intuitive and scalable user experience.
+
+
+
+
 
 3_What's Covered :
 
@@ -23,6 +30,10 @@ Interactive widgets — InkWell, IconButton, ElevatedButton
 Media widgets — Image.asset, Icon, CircleAvatar
 
 Structural widgets — Scaffold, AppBar, BottomNavigationBar, BottomNavigationBarItem, SingleChildScrollView, ListView.builder, PreferredSize, ClipRRect
+
+
+
+
 
 
 4_Pictures :
