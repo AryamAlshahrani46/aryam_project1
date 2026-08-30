@@ -31,32 +31,15 @@ Media widgets — Image.asset, Icon, CircleAvatar
 
 Structural widgets — Scaffold, AppBar, BottomNavigationBar, BottomNavigationBarItem, SingleChildScrollView, ListView.builder, PreferredSize, ClipRRect
 
-project structure[code.txt](https://github.com/user-attachments/files/31614457/code.txt)
- :
-lib/
-│
-├── assets/
-│   └── images/
-│       ├── saudi_emblem.png
-│       ├── diriyah.jpg
-│       ├── boulevard.jpg
-│       ├── kafd.jpg
-│       ├── masmak.jpg
-│       ├── museum.jpg
-│       ├── hanifa.jpg
-│       └── sports_boulevard.jpg
-│
-├── screens/
-│   ├── home_screen.dart
-│   └── second_screen.dart
-│
-└── main.dart
+4_Project Structure :
+
+<img width="159" height="197" alt="code " src="https://github.com/user-attachments/assets/5b5c33b4-4c4c-448f-83b3-41a9ca762a80" />
 
 
 
 
 
-4_Pictures :
+5_Pictures :
 
 
 <img width="305" height="329" alt="Screenshot 2026-08-30 154349" src="https://github.com/user-attachments/assets/09a5adeb-1d56-4112-9690-4d40a2371f45" />
