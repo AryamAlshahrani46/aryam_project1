@@ -1,10 +1,15 @@
+import 'package:aryam_project1/data/course_data.dart';
 import 'package:flutter/material.dart';
+import'package:aryam_project1/model/course_model.dart';
 
 import 'second_screen.dart';
 
-class Homescreen extends StatelessWidget {
+class Homescreen extends StatefulWidget {
   const Homescreen({super.key});
 
+ @override
+ State<Homescreen> createState() => _HomescreenState();
+}
   final List<Map<String, dynamic>> places = const [
     {
       "name": "الدرعية الأصيلة",
@@ -63,12 +68,28 @@ class Homescreen extends StatelessWidget {
       "ticket": "مجانًا / Free Entry",
     },
   ];
+class _HomescreenState extends State<Homescreen>{
+ List <CourseModel> PlaceList =[];
 
+    void getData(){
+      for(var item in PlaceData){
+        PlaceList.add(CourseModel.fromJson(item));
+      }
+
+    @override
+      void initState(){
+        super.initState();
+        getData();
+      }
+
+
+}
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.sizeOf(context).width;
     double height = MediaQuery.sizeOf(context).height;
 
+  
     return Scaffold(
       backgroundColor: const Color(0xFFF9F6EE),
 
