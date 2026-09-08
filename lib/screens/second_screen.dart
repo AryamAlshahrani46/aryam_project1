@@ -1,10 +1,10 @@
+import 'package:aryam_project1/model/course_model.dart';
 import 'package:flutter/material.dart';
 
 class SecondScreen extends StatelessWidget {
+final CourseModel CourseDetails;
 
-final Map<String, dynamic> placeDetails;
-
-const SecondScreen({super.key, required this.placeDetails});
+const SecondScreen({super.key, required this.CourseDetails});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ const SecondScreen({super.key, required this.placeDetails});
                     bottomRight: Radius.circular(24),
                   ),
                   child: Image.asset(
-                    placeDetails["image"]!,
+                    CourseDetails.image!,
                     width: double.infinity,
                     height: height * 0.35, 
                     fit: BoxFit.cover,  
@@ -60,7 +60,7 @@ const SecondScreen({super.key, required this.placeDetails});
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    placeDetails["name"]!,
+                    CourseDetails.name!,
                     style:  TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.bold,
@@ -68,7 +68,7 @@ const SecondScreen({super.key, required this.placeDetails});
                     ),
                   ),
                   Text(
-                    placeDetails["subtitle"]!,
+                    CourseDetails.subtitle!,
                     style:  TextStyle(
                       fontSize: 14,
                       color: Colors.black54,
@@ -102,7 +102,7 @@ const SecondScreen({super.key, required this.placeDetails});
                    SizedBox(height: 12),
 
                   Text(
-                    placeDetails["description"]!,
+                    CourseDetails.description!,
                     style: TextStyle(
                       fontSize: 13,
                       height: 1.5,
@@ -116,7 +116,7 @@ const SecondScreen({super.key, required this.placeDetails});
               children: [
                  Icon(Icons.access_time),
                  SizedBox(width: 5),
-                Text(placeDetails["time"] ?? ""),
+                Text(CourseDetails.time ?? " "),
               ],
             ),
              SizedBox(height: 5),
@@ -124,7 +124,7 @@ const SecondScreen({super.key, required this.placeDetails});
               children: [
                  Icon(Icons.confirmation_number),
                  SizedBox(width: 5),
-                Text(placeDetails["ticket"] ?? ""),
+                Text(CourseDetails.ticket ?? ""),
               ],
             ),
 
@@ -147,7 +147,7 @@ const SecondScreen({super.key, required this.placeDetails});
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  placeDetails["name"]!,
+                                  CourseDetails.name!,
                                   style:  TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
                                 ),
                                  Text(

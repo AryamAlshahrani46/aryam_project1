@@ -17,10 +17,5 @@ factory CourseModel.fromJson( Map<String, dynamic> json ){
       ticket: json["ticket"]?? "",
       time: json["time"] ?? ""
      );
-
-
-}
-
-
-
+   }
 }
