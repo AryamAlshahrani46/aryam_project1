@@ -33,7 +33,7 @@ Media widgets — Image.asset, Icon, CircleAvatar
 Structural widgets — Scaffold, AppBar, BottomNavigationBar, BottomNavigationBarItem, SingleChildScrollView, ListView.builder, PreferredSize, ClipRRect
 
 ## 4_Project Structure :
-
+```text
 lib/
 │
 ├── models/
@@ -47,13 +47,12 @@ lib/
 │   └── second_screen.dart      
 │
 └── main.dart
- 
+
 ------------------------
 
 ## 5_Pictures :
 
 
->>>>>>> 242ee948929c9599a1d55169c49e661719458474
 <img width="305" height="329" alt="Screenshot 2026-08-30 154349" src="https://github.com/user-attachments/assets/09a5adeb-1d56-4112-9690-4d40a2371f45" />
 
 
