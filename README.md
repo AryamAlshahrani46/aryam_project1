@@ -1,4 +1,4 @@
-##  🌍Discover  Riyadh | استكشف الرياض##
+##  🌍Discover Riyadh | استكشف الرياض
 
 ## 1_Application Overview :
 
