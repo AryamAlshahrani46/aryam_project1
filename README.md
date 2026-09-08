@@ -1,31 +1,12 @@
-<<<<<<< HEAD
-lib/
-│
-├── assets/
-│   └── images/
-│       ├── saudi_emblem.png
-│       ├── diriyah.jpg
-│       ├── boulevard.jpg
-│       ├── kafd.jpg
-│       ├── masmak.jpg
-│       ├── museum.jpg
-│       ├── hanifa.jpg
-│       └── sports_boulevard.jpg
-│
-├── screens/
-│   ├── home_screen.dart
-│   └── second_screen.dart
-│
-└── main.dart
-=======
-1_Application Overview :
+
+## 1_Application Overview :
 
 The Riyadh Tourism & Cultural Heritage App is a mobile application developed using the Flutter framework . The app aims to highlight the historical, cultural, and modern landmarks of Riyadh, showcasing prominent destinations across the city.
 
 
+------------------------
 
-
-2_Key Features:
+## 2_Key Features:
 
 Interactive UI: Designed using modern Flutter widgets to display landmarks efficiently and seamlessly.
 
@@ -37,9 +18,9 @@ Smooth Navigation: Built with an organized navigation flow using elements such a
 
 
 
+-------------------------
 
-
-3_What's Covered :
+## 3_What's Covered :
 
 Layout widgets — Column, Row, Stack, Positioned, Container, SizedBox, Expanded, Padding
 
@@ -51,15 +32,25 @@ Media widgets — Image.asset, Icon, CircleAvatar
 
 Structural widgets — Scaffold, AppBar, BottomNavigationBar, BottomNavigationBarItem, SingleChildScrollView, ListView.builder, PreferredSize, ClipRRect
 
-4_Project Structure :
+## 4_Project Structure :
 
-<img width="159" height="197" alt="code " src="https://github.com/user-attachments/assets/5b5c33b4-4c4c-448f-83b3-41a9ca762a80" />
+lib/
+│
+├── models/
+│   └── course_model.dart     
+│
+├── services/
+│   └── Database.dart           
+│
+├── screens/
+│   ├── home_screen.dart       
+│   └── second_screen.dart      
+│
+└── main.dart
+ 
+------------------------
 
-
-
-
-
-5_Pictures :
+## 5_Pictures :
 
 
 >>>>>>> 242ee948929c9599a1d55169c49e661719458474
