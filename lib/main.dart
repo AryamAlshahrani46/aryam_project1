@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:aryam_project1/screens/home_screen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main()async {
+Future<void> main()async {
    WidgetsFlutterBinding.ensureInitialized();
+    await dotenv.load();
 
   await Supabase.initialize(
-    url: "https://lprlgadvlfxgwwuzajrv.supabase.co",
-    publishableKey: "sb_publishable_50ZFBd1llqJC6NTLnBzQZg_nQeWfVpE",
+    url: dotenv.get('API_URL'),
+    publishableKey:dotenv.get('API_KEY'),
   );
   runApp(MainApp());
 } 
